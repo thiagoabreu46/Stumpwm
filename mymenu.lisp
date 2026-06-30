@@ -6,16 +6,30 @@
 (setq app-menu:*app-menu*
       '(("Internet"
          ("Firefox" "firefox-bin")   
-         ("Discord" "discord") 
-         )
+         ("Discord" "discord"))
+	("Variados"
+	 ("File Manager" "xfe")
+	 ("Fluffy Mod Manager" "Fluffy")
+	 ("Terminal" "kitty"))
         ("Trabalho"
          ("Libreoffice"  "libreoffice"))
+	("Som"
+	 ("Audacious" "audacious")
+	 ("Pavucontrol" "pavucontrol"))
         ("Design digital"
          ("GIMP" "gimp")
          ("Krita" "krita"))
-        ("Kitty" "kitty")
-        ("Games"
+        ("Jogos"
 	 ("Steam" "steam")
-	 ("PCSX2" "pcsx2-qt")
-	 ("RetroArch" "retroarch")
-	 )))
+	 ("Emuladores"
+	  ("PCSX2" "pcsx2-qt")
+	  ("RetroArch" "retroarch")
+	  ("Azahar" "azaharemu")
+	  ("Ryujinx" "ryujinxemu"))
+	  ("Classicos"
+	   ("Touhou"
+	    ("TH01" "")
+	    ("TH02" "")
+	    ("TH03" "")
+	    ("TH04" "")
+	    ("TH05" ""))))))
