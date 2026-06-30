@@ -5,7 +5,7 @@
 (setf *mouse-focus-policy* :click)
 (setq *startup-message* (format nil "Welcome Night!~%Slynk is on port 4004~%Happy Hacking!"))
 (load-module "sdl-fonts")
-(defparameter *the-font* (sdl-fonts:load-font "/home/thiago/.fonts/Monocraft-ttf/Monocraft.ttf" 10))
+(defparameter *the-font* (sdl-fonts:load-font "/usr/share/fonts/nerdfonts/TerminessNerdFontPropo-Bold.ttf" 10))
 (set-font *the-font*)
 
 ;;   atalhos   ;;
